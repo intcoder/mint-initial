@@ -29,11 +29,11 @@ dconf write /org/cinnamon/desktop/keybindings/media-keys/screensaver "['<Primary
 
 dconf write /org/cinnamon/desktop/keybindings/wm/begin-move "['<Alt><Super>F7']"
 dconf write /org/cinnamon/desktop/keybindings/wm/begin-resize "['<Alt><Super>F8']"
-dconf write /org/cinnamon/desktop/keybindings/wm/move-to-workspace-1 "['<Primary><Alt>1', '<Primary><Alt>KP_1', '<Primary><Alt>KP_End']"
-dconf write /org/cinnamon/desktop/keybindings/wm/move-to-workspace-2 "['<Primary><Alt>2', '<Primary><Alt>KP_2', '<Primary><Alt>KP_Down']"
-dconf write /org/cinnamon/desktop/keybindings/wm/move-to-workspace-3 "['<Primary><Alt>3', '<Primary><Alt>KP_3', '<Primary><Alt>KP_Next']"
-dconf write /org/cinnamon/desktop/keybindings/wm/move-to-workspace-4 "['<Primary><Alt>4', '<Primary><Alt>KP_4', '<Primary><Alt>KP_Left']"
-dconf write /org/cinnamon/desktop/keybindings/wm/move-to-workspace-5 "['<Primary><Alt>5', '<Primary><Alt>KP_5', '<Primary><Alt>KP_Begin']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-1 "['<Primary><Alt>1', '<Primary><Alt>KP_1', '<Primary><Alt>KP_End']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-2 "['<Primary><Alt>2', '<Primary><Alt>KP_2', '<Primary><Alt>KP_Down']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-3 "['<Primary><Alt>3', '<Primary><Alt>KP_3', '<Primary><Alt>KP_Next']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-4 "['<Primary><Alt>4', '<Primary><Alt>KP_4', '<Primary><Alt>KP_Left']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-5 "['<Primary><Alt>5', '<Primary><Alt>KP_5', '<Primary><Alt>KP_Begin']"
 
 dconf write /org/cinnamon/desktop/wm/preferences/theme "'Adapta-Nokto'"
 
