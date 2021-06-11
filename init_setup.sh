@@ -18,6 +18,7 @@ echo alias xcp=\'pwd \| xc\' | sudo tee -a /etc/bash.bashrc
 
 sudo apt install -y vim
 sudo apt install -y gparted
+sudo apt install -y meld
 
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt install -y apt-transport-https
@@ -26,6 +27,7 @@ sudo apt update -y
 sudo apt install -y sublime-text
 
 sudo apt install -y adapta-gtk-theme
+sudo apt install -y ./adapta-backgrounds_0.5.3.1-0ubuntu1~cosmic1_all.deb
 
 sudo add-apt-repository -y ppa:papirus/papirus
 sudo apt update -y
