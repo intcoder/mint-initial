@@ -31,4 +31,4 @@ sudo apt install -y ./adapta-backgrounds_0.5.3.1-0ubuntu1~cosmic1_all.deb
 
 sudo add-apt-repository -y ppa:papirus/papirus
 sudo apt update -y
-sudo apt install -y paprirus-icon-theme
+sudo apt install -y papirus-icon-theme
