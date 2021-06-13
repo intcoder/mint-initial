@@ -29,8 +29,12 @@ sudo apt update -y
 sudo apt install -y sublime-text
 sudo sed -i 's/xed.desktop/sublime_text.desktop;xed.desktop/g' /usr/share/applications/defaults.list
 
+TMP_DIR=`mktemp -d`
+wget https://launchpad.net/~tista/+archive/ubuntu/adapta/+files/adapta-backgrounds_0.5.3.1-0ubuntu1~cosmic1_all.deb -P $TMP_DIR
 sudo apt install -y adapta-gtk-theme
-sudo apt install -y ./adapta-backgrounds_0.5.3.1-0ubuntu1~cosmic1_all.deb
+sudo apt install -y $TMP_DIR/*.deb
+
+sudo rm -rf $TMP_DIR
 
 sudo add-apt-repository -y ppa:papirus/papirus
 sudo apt update -y
