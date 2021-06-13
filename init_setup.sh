@@ -27,6 +27,7 @@ sudo apt install -y apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt update -y
 sudo apt install -y sublime-text
+sudo sed -i 's/xed.desktop/sublime_text.desktop;xed.desktop/g' /usr/share/applications/defaults.list
 
 sudo apt install -y adapta-gtk-theme
 sudo apt install -y ./adapta-backgrounds_0.5.3.1-0ubuntu1~cosmic1_all.deb
