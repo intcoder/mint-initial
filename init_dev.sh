@@ -9,3 +9,7 @@ sudo apt install pgadmin4 -y
 sudo add-apt-repository -y ppa:serge-rider/dbeaver-ce
 sudo apt update -y
 sudo apt install -y dbeaver-ce
+
+TMP_DIR=`mktemp -d`
+wget https://www.syntevo.com/downloads/smartgit/smartgit-20_2_5.deb -P $TMP_DIR
+sudo apt install -y $TMP_DIR/*.deb
