@@ -34,9 +34,12 @@ dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-2 "['<Prima
 dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-3 "['<Primary><Alt>3', '<Primary><Alt>KP_3', '<Primary><Alt>KP_Next']"
 dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-4 "['<Primary><Alt>4', '<Primary><Alt>KP_4', '<Primary><Alt>KP_Left']"
 dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-5 "['<Primary><Alt>5', '<Primary><Alt>KP_5', '<Primary><Alt>KP_Begin']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-6 "['<Primary><Alt>6', '<Primary><Alt>KP_6', '<Primary><Alt>KP_Right']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-7 "['<Primary><Alt>7', '<Primary><Alt>KP_7', '<Primary><Alt>KP_Home']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-8 "['<Primary><Alt>8', '<Primary><Alt>KP_8', '<Primary><Alt>KP_Up']"
+dconf write /org/cinnamon/desktop/keybindings/wm/switch-to-workspace-9 "['<Primary><Alt>9', '<Primary><Alt>KP_9', '<Primary><Alt>KP_Page_Up']"
 
 dconf write /org/cinnamon/desktop/wm/preferences/theme "'Adapta-Nokto'"
-
 dconf write /org/cinnamon/theme/name "'Adapta-Nokto'"
 
 dconf write /org/nemo/preferences/default-folder-viewer "'list-view'"
