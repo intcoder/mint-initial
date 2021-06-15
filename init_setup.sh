@@ -1,5 +1,7 @@
 #!/bin/bash
 
+UBUNTU_CODE_NAME=`cat /etc/upstream-release/lsb-release | grep DISTRIB_CODENAME= | sed s/DISTRIB_CODENAME=//g`
+
 echo "" | sudo tee -a /etc/bash.bashrc
 
 echo alias ll=\'ls -half\' | sudo tee -a /etc/bash.bashrc
@@ -39,3 +41,18 @@ sudo rm -rf $TMP_DIR
 sudo add-apt-repository -y ppa:papirus/papirus
 sudo apt update -y
 sudo apt install -y papirus-icon-theme
+
+
+sudo add-apt-repository -y ppa:jonmagon/crow-translate
+sudo apt update -y
+sudo apt install -y crow-translate
+
+
+sudo add-apt-repository -y "deb https://dl.winehq.org/wine-builds/ubuntu/ $UBUNTU_CODE_NAME main"
+sudo apt update -y
+
+
+# Uncomment one of the following lines
+#sudo apt install --install-recommends winehq-stable
+#sudo apt install --install-recommends winehq-devel
+#sudo apt install --install-recommends winehq-devel
